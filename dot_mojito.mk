@@ -13,21 +13,17 @@ $(call inherit-product, vendor/xiaomi/ANXCamera/config.mk)
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
 # Inherit some common CherishOS stuff
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common_full_phone.mk)
 
-CHERISH_BUILD_TYPE := OFFICIAL
+DOT_BUILD_TYPE := UNOFFICIAL
 WITH_GMS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_INCLUDE_STOCK_ARCORE := false
 
-# Maintainer
-PRODUCT_GENERIC_PROPERTIES += \
-    ro.cherish.maintainer=KhuongHung|WaIIeeD
-
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cherish_mojito
+PRODUCT_NAME := dot_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
