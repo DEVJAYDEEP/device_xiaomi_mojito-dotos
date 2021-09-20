@@ -76,3 +76,6 @@ $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
+
+# ANXCamera v185R
+$(call inherit-product, vendor/xiaomi/ANXCamera/config.mk)
