@@ -25,6 +25,10 @@ TARGET_INCLUDE_STOCK_ARCORE := false
 #Maintainer Name
 DEVICE_MAINTAINER := Royal King
 
+
+#Lets go official
+DOT_OFFICIAL=true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_mojito
 PRODUCT_DEVICE := mojito
