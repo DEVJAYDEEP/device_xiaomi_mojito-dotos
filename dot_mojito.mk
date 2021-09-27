@@ -22,6 +22,9 @@ TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_INCLUDE_STOCK_ARCORE := false
 
+#Maintainer Name
+DEVICE_MAINTAINER := Royal King
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_mojito
 PRODUCT_DEVICE := mojito
